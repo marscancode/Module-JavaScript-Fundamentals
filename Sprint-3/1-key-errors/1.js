@@ -1,7 +1,7 @@
 // Predict and explain first...
 
 // Why will an error occur when this program runs?
-// =============> write your prediction here
+// like the original code in 0.js a syntax error will occur because decimalNumber has already been declared as the parameter in the function so it cannot be redeclared  inside the function with the same name.
 
 // Try playing computer with the example to work out what is going on
 
