@@ -5,16 +5,20 @@
 
 // Try playing computer with the example to work out what is going on
 
-function convertToPercentage(decimalNumber) {
-  const decimalNumber = 0.5;
-  const percentage = `${decimalNumber * 100}%`;
+//function convertToPercentage(decimalNumber) {
+//  const decimalNumber = 0.5;
+//  const percentage = `${decimalNumber * 100}%`;
 
+//return percentage;
+//}
+
+//console.log(decimalNumber);
+//Because decimalNumber is declared twice it wont work but when i call the function convertToPercentage and pass in 0.5 it will get assigned to the parameter decimalNumber so i need to update the code to reflect this.
+
+function convertToPercentage(decimalNumber) {
+  const percentage = `${decimalNumber * 100}%`;
   return percentage;
 }
+console.log(convertToPercentage(0.5));
 
-console.log(decimalNumber);
-
-// =============> write your explanation here
-
-// Finally, correct the code to fix the problem
-// =============> write your new code here
+//console output: 50%
