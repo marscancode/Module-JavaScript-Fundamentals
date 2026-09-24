@@ -1,5 +1,5 @@
 // Predict and explain first...
-//  =============> write your prediction here
+// The function will not return the expected result because whilst sum takes in two arguments it cannot add a+b together because it hasn't been stored in a variable before return so when we call sum it will be undefined?
 
 function sum(a, b) {
   return;
