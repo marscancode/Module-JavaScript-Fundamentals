@@ -1,6 +1,6 @@
 // Predict and explain first...
 
-// =============> write your prediction here
+// here we are declaring a function called multiply which takes in two arguments and multiplies them but because the function doesn't return the value when we call the function it hasnt been stored anywhere for it to be called upon so i think it will return undefined in the template literal. I also think because there are two console logs one will print the value 320 and the other will print the template literal but as multiply hasn't been stored anywhere it will print undefined ?
 
 function multiply(a, b) {
   console.log(a * b);
