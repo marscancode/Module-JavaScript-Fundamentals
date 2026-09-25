@@ -14,9 +14,11 @@ console.log(`The last digit of 105 is ${getLastDigit(105)}`);
 console.log(`The last digit of 806 is ${getLastDigit(806)}`);
 
 // Now run the code and compare the output to your prediction
-// =============> write the output here
+// output: The last digit of 42 is 3
+//The last digit of 105 is 3
+//The last digit of 806 is 3
 // Explain why the output is the way it is
-// =============> write your explanation here
+// the console output prints this because the the methods have only been applied to the number stored in the num variable so javascript isn't able to access the numbers passed in when the function is called in the template literal as the function getLastDigit() has no parameter so it passes in the value stored in the num variable which is "3" and so every time the function is called "3" is returned.
 // Finally, correct the code to fix the problem
 // =============> write your new code here
 
