@@ -17,8 +17,8 @@
 
 // define function
 function stringToUpperCase(str) {
-  //store string in upper snake case
-  let stringToUpperCaseResult = str.toUpperCase().replaceAll(" ", "_");
+  //store string in upper snake case (calculation wont change store in const)
+  const stringToUpperCaseResult = str.toUpperCase().replaceAll(" ", "_");
   // return result
   return stringToUpperCaseResult;
 }
