@@ -1,7 +1,7 @@
 // Predict and explain first...
 
 // Predict the output of the following code:
-// =============> Write your prediction here
+// here we have a constant variable called num which stores the number 103 we then have declared the  function getLastDigit which has an empty parameter we are then asking it to return the value stored inside num and apply the .toString method to it which turns the number 103 into a string "103" we are then taking "103" and applying the .slice method to it which will start from position -1 and return everything after it which leaves us with the string "3" then outside of the function, the function getLastDigit is being called 3 times in template literal using console.log with the arguments 42, 105 and 806 but because the variable num = "3" it will print the template literal with the "3" in the console when javascript gets to the function call for each value, which isn't the expected result.
 
 const num = 103;
 
