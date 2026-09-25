@@ -14,3 +14,13 @@
 // You will need to come up with an appropriate name for the function
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+// define function
+function stringToUpperCase(str) {
+  //store string in upper snake case
+  let stringToUpperCaseResult = str.toUpperCase().replaceAll(" ", "_");
+  // return result
+  return stringToUpperCaseResult;
+}
+// call function
+console.log(stringToUpperCase("welcome to cyf"));
