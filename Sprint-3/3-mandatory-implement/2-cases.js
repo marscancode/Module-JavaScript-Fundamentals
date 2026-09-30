@@ -16,11 +16,11 @@
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
 // define function
-function stringToUpperCase(str) {
+function stringToUpperCaseSnake(str) {
   //store string in upper snake case (calculation wont change store in const)
-  const stringToUpperCaseResult = str.toUpperCase().replaceAll(" ", "_");
+  const stringToUpperCaseSnakeResult = str.toUpperCase().replaceAll(" ", "_");
   // return result
-  return stringToUpperCaseResult;
+  return stringToUpperCaseSnakeResult;
 }
 // call function
-console.log(stringToUpperCase("welcome to cyf"));
+console.log(stringToUpperCaseSnake("welcome to cyf"));
